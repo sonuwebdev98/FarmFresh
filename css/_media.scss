@@ -1,0 +1,1007 @@
+
+
+
+
+
+// media quaries for Tablets
+
+@media only screen and (max-width:1200px){
+
+
+
+
+  header{
+    .my-owl-custom{
+
+      
+
+      .center-text{
+       
+
+        h1{
+          font-size: 3rem;
+          
+        }
+      }
+
+    }
+  }
+  
+
+    .about-section{
+       
+      .about{
+
+         
+         .articals{
+          width: 80%;
+          margin: 0 auto;
+          margin-bottom: 100px;
+          margin-top: -90px;
+             
+         }
+
+
+         .about-us{
+          width: 80%;
+          margin: 0 auto;
+
+          .mens-areas{
+
+            img{
+              padding: 0px 30px;
+              padding-bottom: 0;
+              margin-top: 200px;
+              
+            }
+          }
+     }
+      }
+
+      
+    }
+
+
+    .banners{
+         
+      .banners-center{
+        width: 80%;
+
+       .box-icon {
+          width: 47.5%;
+          margin-bottom: 50px;
+         
+
+        
+        }
+      }
+    }
+
+
+
+    .service .service-center{
+      width: 80%;
+      margin: 0 auto;
+
+      .ser1{
+        width: 48.5%;
+      }
+
+      .ser{
+        width: 48.5%;
+      }
+    }
+
+
+    .feature{
+
+      .feature-center{
+
+        .six-containers{
+          width: 80%;
+          margin: 0 auto;
+
+        }
+      }
+    }
+
+
+
+    .the-team {
+
+      .the-team-center{
+
+           .team-mambers{
+             width: 80%;
+             margin: 0 auto;
+
+             .name{
+
+
+               h1{
+                font-size: 1rem;
+                margin-top: -6px;
+               }
+
+
+               P{
+                 font-size: 0.8rem;
+
+               }
+             }
+             
+           }
+      }
+    }
+
+    .blog{
+      padding-top: 0;
+
+      .blog-center{
+
+        .blog-boxes{
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+    }
+
+
+    footer{
+         
+      .four-box{
+        width: 80%;
+        margin: 0 auto;
+
+        .o-box{
+          
+          label{
+
+            button{
+              padding: 17px 0;
+              font-size: 0.9rem;
+            }
+          }
+        }
+
+       
+      }
+    }
+
+
+
+    
+
+
+}
+ 
+@media only screen and (max-width:991px){
+
+
+  
+  .banners-top{
+    height: 47vh;
+    .center-text{
+      text-align: center;
+    
+    }
+  }
+
+  .contacts {
+    .contact-center{
+      .form{
+        width: 80%;
+        margin: 0 auto;
+      }
+ 
+      .address{
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 0;
+ 
+        .headings-titel{
+          margin-bottom: 50px;
+        }
+ 
+        .add{
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+
+ 
+
+  nav{
+    display: none;
+    line-height: 20px;
+  
+
+    
+  }
+
+
+
+
+  .navigation{
+    nav{
+      padding: 15px 2%;
+      
+    
+     
+    
+
+      .logo{
+        display: block;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+     
+
+      }
+
+      ul{
+        display: none;
+        background-color: var(--primary);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -800px;  
+        left: 0;        
+        width: 100%;
+        text-align: left;
+        padding-bottom: 15px;
+       
+
+
+        li {
+        
+          
+       
+
+           a{
+            
+            font-size:0.9rem;
+            width: 96%;
+            margin:5px auto;
+            display: block;
+            padding:8px 15px;
+           
+            
+            
+             
+           
+           }
+        }
+      
+
+
+
+      }
+
+      .humburger{
+        display: block;
+        width: 50%; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    
+
+
+      }
+
+
+
+    }
+  }
+
+  header{
+
+    .my-owl-custom{
+
+      .item1{
+        height: 80vh;   
+      
+        
+      }
+
+      .center-text{
+        width: 60%;
+
+      }
+
+      .item2 {
+        height: 80vh;
+    
+        
+      }
+      
+
+    }
+
+  
+
+  }
+
+.about-section{
+
+  .about{
+    .articals{
+      margin-top: 0px;
+    }
+  .about-us{
+
+    .mens-areas{
+      width: 100%;
+
+       img {
+        padding: 200px;
+        padding-bottom: 0;
+        padding-top: 0px;
+        margin-top: 50px;
+    }
+
+    
+
+
+    }
+
+    .about-headings{
+      width: 100%;
+      padding: 50px 0;
+
+      .headings-1{
+        font-family: 'Roboto', sans-serif;
+
+        h1{
+          font-size: 3rem;
+          font-family: 'Roboto', sans-serif;
+        }
+
+        p{
+          font-size: 1rem;
+        }
+      }
+
+      .headings-2{
+
+       
+
+         p{
+           font-size: 1rem;
+         }
+      }
+    
+    }
+
+  }
+
+  }
+}
+
+
+
+  .feature{
+
+    .feature-center{
+
+      .feature-headings{
+
+        h2{
+          font-size: 1.2rem;
+
+        }
+
+        h1{
+          font-size: 2.8rem;
+
+        }
+
+     
+      }
+
+      .six-containers{
+
+        .f-box1{
+          width: 100%;
+          padding-bottom: 50px;
+          
+          .box-f-1{
+
+            i{
+              font-size: 1.9rem;
+            }
+
+            h1{
+              font-size: 1.5rem;
+            }
+
+            p{
+              font-size: 1.2rem;
+            }
+          }
+
+        }
+
+        .f-box2{
+          width: 100%;
+
+          .box-f-2{
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+
+            p{
+              font-size: 1.1rem;
+              line-height: 25px;
+              padding: 0px;
+            }
+          }
+
+        }
+
+      
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+  .the-team{
+
+    .the-team-center{
+
+    
+      .team-mambers{
+        
+        .mamber{
+          width: 47%;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+
+  .blog {
+    .blog-center{
+
+      .blog-boxes{
+
+        .blog-box{
+          width:47%;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+  footer{
+
+    .four-box{
+
+      .f-box{
+        width: 50%;
+        margin: 50px 0;
+
+        .social{
+          span{
+            margin-left: -35%;
+          }
+        }
+      }
+
+      .o-box{
+        width: 50%;
+        margin-top: 0;
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+
+
+}
+
+
+@media only screen and (max-width:892px){
+
+
+  .testimonial{
+    .testimonial-center{
+      .custom-carousel-change {
+        .item{
+       
+          p{
+          
+            text-align: justify;
+            padding: 10px 50px;
+          }
+
+          h1{
+            font-size: 1rem;
+         
+          }
+
+
+        }
+      }
+    }
+  }
+
+
+
+}
+
+
+@media only screen and (max-width:767px){
+
+  html{
+    font-size: 15px;
+  }
+
+  .banners-top{
+  
+    .center-text{
+      width: 100%;
+      margin-top: 7rem;
+ 
+  
+      h1{
+      font-size: 4rem;
+      }
+
+      
+    }
+  }
+
+
+
+  header{
+
+    .my-owl-custom{
+
+      .item1{
+        height: 60vh;     
+      
+        
+      }
+
+      .center-text{
+        width: 70%;
+      }
+
+     
+
+      .item2 {
+        height: 60vh;
+    
+        
+      }
+      
+
+    }
+
+  
+
+  }
+  
+  .about-section{
+
+    .about{
+      .articals{
+        .artical-1{
+        width: 100%;
+        }
+
+        .artical-2{
+          width: 100%;
+
+        }
+
+      }
+
+      .about-us{
+
+        .mens-areas{
+          img{
+            padding: 100px;
+            padding-bottom: 0;
+            padding-top: 0px;
+            margin-top: 50px;
+
+         
+          }
+        }
+      }
+    }
+  }
+
+  .banners{
+    .banners-center{
+
+      .box-icon{
+        width: 100%;
+        margin-bottom: 25px;
+
+        .icon {
+          width: 10%;
+         
+          span{
+            font-size: 2rem;
+            
+          }
+        }
+
+        .num-headings{
+          width: 80%;
+      
+          h1{
+            font-size: 1.8rem;
+            font-family: 'Roboto', sans-serif;
+          }
+        }
+      }
+    }
+  }
+
+
+  .service{
+    .service-center{
+      .ser1{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+
+      .ser{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+
+      }
+    }
+  }
+
+
+  .product{
+
+    .product-center{
+
+
+      .gallary{
+        .item-1{
+          figure {
+            img{
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .the-team{
+    .the-team-center{
+      .team-mambers{
+
+        .social{
+          span{
+            font-size:1.5rem;
+           padding: 10px;
+
+
+          }
+        }
+        .mamber{
+          width: 70%;
+          margin: 0 auto;
+          margin-bottom: 50px;
+          
+          img{
+            width: 90%;
+          }
+
+
+
+          .name{
+
+            h1{
+              font-size:1.8rem;
+            }
+
+            p{
+              font-size: 1.2rem;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .blog{
+    .blog-center{
+
+      .blog-boxes{
+        .blog-box{
+          width: 70%;
+          margin: 0 auto;
+          margin-bottom: 50px;
+
+          .titel{
+            width: 100%;
+
+            p{
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+  footer{
+    .four-box{
+      .f-box{
+        width: 70%; 
+
+        .social{
+
+          span{
+            font-size: 1.5rem;
+            margin-left: -30%;
+          }
+        }
+        
+      }
+
+      .o-box{
+        width: 70%;
+        padding: 100px 0;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width:599px){
+
+  html{
+    font-size: 12px;
+  }
+
+  .banners-top{
+    background-position: right;
+  
+    .center-text{
+      
+      margin-top: 9rem;
+     
+  
+      h1{
+      font-size: 4rem;
+      }
+
+      
+    }
+  }
+
+  .contacts {
+    .contact-center{
+     
+ 
+      .address{
+       
+ 
+        .add{
+          margin-bottom: 25px;
+
+          .icons{
+            .font{
+              font-size: 1.6rem;
+              width: 45px;
+              height: 45px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .navigation{
+    nav{
+      ul{
+        li{
+          a{
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+
+
+  header{
+
+
+
+    .my-owl-custom{
+
+      .item1{
+        height: 50vh;     
+      
+        
+      }
+
+      .center-text{
+        width: 75%;
+      }
+
+     
+
+      .item2 {
+        height: 50vh;
+    
+        
+      }
+      
+
+    }
+
+  
+
+  }
+}
+
+.the-team{
+  .the-team-center{
+    .team-mambers{
+
+      .social{
+        span{
+          padding: 11px;
+
+
+        }
+      }
+
+    }
+
+  }
+}
+
+
+@media only screen and(max-width:467px){
+
+  .about-section{
+
+    .about{
+    
+
+      .about-us{
+
+        .mens-areas{
+          img{
+            padding: 50px;
+            padding-bottom: 0;
+            padding-top: 0px;
+            margin-top: 50px;
+
+         
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .the-team{
+    .the-team-center{
+      .team-mambers{
+
+        .social{
+          width: 50px;
+          span{
+            font-size:1.5rem;
+
+
+          }
+        }
+        .mamber{
+          width: 70%;
+          margin: 0 auto;
+          margin-bottom: 50px;
+          
+          img{
+            width: 90%;
+          }
+
+
+
+          .name{
+
+            h1{
+              font-size:1.2rem;
+            }
+
+            p{
+              font-size: 1rem;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  
+  .testimonial{
+    .testimonial-center{
+      .custom-carousel-change {
+        .item{
+          img{
+            // width: 30%;
+          }
+
+          p{
+          
+           font-size:1.1rem;   
+        
+          }
+
+        
+
+
+        }
+      }
+    }
+  }
+
+  footer{
+    .four-box{
+      .f-box{
+     
+
+        .social{
+
+          span{
+           
+            margin-left: -15%;
+          }
+        }
+        
+      }
+
+
+
+}
+
+  }
+}
+

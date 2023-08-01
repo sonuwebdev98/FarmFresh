@@ -1,0 +1,94 @@
+header {
+    .my-owl-custom {
+      //--------  item-1 starts here -----------//
+  
+      .item1 {
+        background-image: url(../img/carousel-1.jpg);
+        
+        @extend %Owl-carousel;
+      }
+  
+      .center-text {
+        color: var(--light);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+          //  background-color: red;
+           width: 50%;
+  
+        h2 {
+          font-size: 1.5rem;
+        }
+  
+        h1 {
+          font-size: 4.5rem;
+        }
+  
+        .button-1 {
+          @include btn-style(#34ad54);
+          margin-left: 0;
+          transition: all 0.3s ease-in;
+  
+          &:hover {
+            color: var(--dark);
+            cursor: pointer;
+          }
+        }
+  
+        .button-2 {
+          @include btn-style(#ff9933);
+          transition: all 0.3s ease-in;
+  
+          &:hover {
+            color: var(--dark);
+            cursor: pointer;
+          }
+        }
+      }
+  
+      //--------  item-2 starts here -----------//
+      .item2 {
+        background-image: url(../img/carousel-2.jpg);
+        @extend %Owl-carousel;
+      }
+  
+      .center-text-2 {
+        color: var(--light);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        //    background-color: red;
+  
+        h2 {
+          font-size: 1.5rem;
+        }
+  
+        h1 {
+          font-size: 4.5rem;
+        }
+  
+        .button-1 {
+          @include btn-style(#34ad54);
+          margin-left: 0;
+          transition: all 0.3s ease-in;
+  
+          &:hover {
+            color: var(--dark);
+            cursor: pointer;
+          }
+        }
+  
+        .button-2 {
+          @include btn-style(#ff9933);
+          transition: all 0.3s ease-in;
+  
+          &:hover {
+            color: var(--dark);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }

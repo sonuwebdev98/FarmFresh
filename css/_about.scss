@@ -1,0 +1,233 @@
+
+
+
+.about-section {
+    width: 100%;
+    @include flex();
+  
+  
+    //  About starts here
+
+    .about-pad{
+     padding-top: 6rem;
+    }
+  
+    .about {
+      @include inner();
+  
+      // Articals starts here
+      .articals {
+        width: 100%;
+        margin-bottom: 100px;
+        color: var(--light);
+        @include flex();
+        margin-top: -90px;
+        position: relative;
+        z-index: 1;
+  
+        .artical-1 {
+          background-color: var(--primary);
+          background-image: url(../img/vegetable.png);
+          @extend %articals-both;
+       
+  
+          h1 {
+            padding-left: 50px;
+            font-size: 1.5rem;
+          }
+  
+          p {
+            padding-left: 50px;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            font-weight: 100;
+            line-height: 1.5rem;
+          }
+  
+          h2 {
+            padding-left: 50px;
+            font-size: 0.9rem;
+            font-weight: 100;
+  
+            span {
+              margin-left: 10px;
+              font-size: 0.9rem;
+            }
+          }
+        }
+  
+        .artical-2 {
+          @extend %articals-both;
+          background-color: var(--secondary);
+          background-image: url(../img/fruit.png);
+  
+          h1 {
+            padding-left: 50px;
+            font-size: 1.5rem;
+          }
+  
+          p {
+            padding-left: 50px;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            font-weight: 100;
+            line-height: 1.5rem;
+          }
+  
+          h2 {
+            padding-left: 50px;
+            font-size: 0.9rem;
+            font-weight: 100;
+            span {
+              margin-left: 10px;
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+  
+      // Abouts starts here
+      .about-us {
+        width: 100%;
+        @include flex();
+  
+        .mens-areas {
+          width: 48.5%;
+          border: 5px solid var(--primary);
+          border-bottom: none;
+  
+          img {
+            width: 100%;
+            padding: 50px 70px;
+            padding-bottom: 0;
+           
+          }
+        }
+  
+        .about-headings {
+          width: 48.5%;
+          @include flex();
+          
+
+          // border: 5px solid Red;
+  
+          .headings-1 {
+            width: 100%;
+  
+            h2 {
+              color: var(--primary);
+              font-size: 1rem;
+              font-family: 'Roboto', sans-serif;
+            }
+  
+            h1 {
+              color: var(--dark);
+              font-size: 2.7rem;
+              line-height: 60px;
+              margin: 10px 0;
+              font-family: 'Roboto', sans-serif;
+            }
+  
+            p {
+              color: var(--lightgrey);
+              font-weight: light;
+              font-size: 0.9rem;
+              margin: 40px 0;
+              line-height: 25px;
+            }
+          }
+  
+          .headings-2 {
+            width: 48.5%;
+  
+            .box1 {
+              width: 90px;
+              height: 100px;
+              background: rgb(52, 173, 84);
+              background: linear-gradient(
+                180deg,
+                rgba(52, 173, 84, 1) 0%,
+                rgba(255, 153, 51, 1) 100%
+              );
+            }
+  
+            .box2 {
+              width: 75px;
+              height: 100px;
+              background: rgb(52, 173, 84);
+              background: linear-gradient(
+                180deg,
+                rgba(52, 173, 84, 1) 0%,
+                rgba(255, 153, 51, 1) 100%
+              );
+            }
+  
+            h1 {
+              color: var(--dark);
+              font-size: 1.3rem;
+              margin-bottom: 10px;
+              font-family: 'Roboto', sans-serif;
+              margin-top: 10px;
+
+            }
+            p {
+              color: var(--lightgrey);
+              font-weight: light;
+              font-size: 0.9rem;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  // banners-1 sections starts here 
+  .banners-top{
+    background-image: url(../img/carousel-1.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height:41vh;
+    padding: 1px;
+     
+
+          .center-text{
+             @include inner();
+             margin-top: 4rem;
+          
+               h1{
+                 color: var(--light);
+                 font-size: 4.6rem;
+                 font-weight: bolder;
+                 font-family: 'Roboto', sans-serif;
+
+               }
+
+               .button-1 {
+                @include btn-style(#34ad54);
+                padding: 1rem 4%;
+                margin-left: 0;
+                transition: all 0.3s ease-in;
+        
+                &:hover {
+                  color: var(--dark);
+                  cursor: pointer;
+                }
+              }
+        
+              .button-2 {
+                @include btn-style(#ff9933);
+                padding: 1rem 4%;
+                transition: all 0.3s ease-in;
+        
+                &:hover {
+                  color: var(--dark);
+                  cursor: pointer;
+                }
+              }
+          }
+  }
+
+  // banners sections ends here 

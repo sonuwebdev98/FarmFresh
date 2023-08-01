@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarmFresh</title>
+
+    <!-- fontawesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- owlcarousel  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- owlcarousel  -->
+
+    <!-- jquery cdn  -->
+    <script src="js/jquery-3.6.0.js"></script>
+
+    <!--------- CSS Stylesheet ----------->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!------------------ firs-nav starts here  ---------------------->
+    <nav>
+      <div class="contact">
+        <h1><i class="fas fa-mobile-alt"></i> +012 345 6789</h1>
+      </div>
+
+      <div class="logo">
+        <h1><span>Farm</span>Fresh</h1>
+      </div>
+
+      <div class="social">
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-linkedin"></span>
+        <span class="fa fa-instagram"></span>
+      </div>
+    </nav>
+    <!------------------ firs-nav Ends here  ---------------------->
+
+    <!------------------------------------- nav starst here ------------------------------------>
+
+    <section class="navigation">
+      <nav>
+        <div class="logo">
+          <h1><span>Farm</span>Fresh</h1>
+        </div>
+
+        
+        <ul>
+            <li ><a href="index.html">HOME</a></li>
+            <li><a href=" about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICE</a></li>
+            <li><a href="Product.html">PROCDUCT</a></li>
+            <li class="dropdown"><a href="blog.html">BLOG</a>          
+           </li>
+            <li ><a class="active" href="contact.html">CONTACT</a></li>
+       </ul>
+
+        <div class="humburger">
+          <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          aria-label="Main Menu">
+          <svg width="45" height="45" viewBox="0 0 100 100">
+            <path class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+        </button>
+        </div>
+      </nav>
+    </section>
+
+    <!------------------------------------- Nav-2 ends here ------------------------------------>
+
+
+     <!------------------------------------- banners-4 starst here ------------------------------->
+  <section class="banners-top banners-mar">
+    <div class="center-text">
+        
+        <h1>Contact Us</h1> <br>   
+        <button class="button-1" type="button">Home</button>
+        <button class="button-2" type="button">Contact Us</button>
+      </div>           
+
+
+   </section>
+
+  <!------------------------------------- banners-4 ends here ------------------------------------> 
+
+  <!-- contact-setion starts here  -->
+   <section class="contacts">
+        
+        <section class="contact-center">
+               <div class="headings">
+                   <h5>CONTACT US</h5>
+                   <h1>Please Feel Free To <br> Contact Us</h1>
+               </div>
+
+
+            <div class="form">
+                <form >
+                    <div class="name">
+                        <input type="text" name="name" id="myname" placeholder="Your Name">
+                    </div>
+
+                    <div class="name">
+                        <input type="email" name="email" id="myname" placeholder="Your Email">
+                    </div>
+
+                    <div class="subject">
+                        <input type="text" name="subject" id="" placeholder="Subject">
+                    </div>
+
+                    <div class="massage">
+                      <textarea name="massage" id="" cols="6" rows="5" placeholder="Massage"></textarea>
+                    </div>
+
+                    <div class="btn">
+                        <button class="btn-style" type="button">Send Massage</button>
+                    </div>
+                </form>
+            </div> 
+            
+            
+            <div class="address">
+                 <div class="headings-titel">
+                  <h1>Get In Touch</h1>
+                 </div>
+
+                <div class="add">
+                    <div class="icons"><i class="font fas fa-map-marker-alt"></i></div>
+                    <div class="titel">
+                        <h2>Our Office</h2>
+                        <p>123 Stree,New York, USA</p>
+                    </div>
+
+                </div>
+
+                <div class="add">
+                    <div class="icons"><span class="font fa  fa-envelope-open"></span></div>
+                    <div class="titel">
+                        <h2>Email Us</h2>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+
+
+                <div class="add">
+                    <div class="icons"> <i class="font fas fa-mobile-alt"></i> </div>
+
+                    <div class="titel">
+                        <h2>Call Us</h2>
+                        <p>+012 345 6489</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+
+
+   </section>
+
+
+
+    
+    <!-------------------------------------Footer Starts here   ------------------------------------>
+    <footer>
+      <section class="four-box">
+        <div class="f-box">
+          <h1>Get In Touch</h1>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</p>
+          <p><span class="fa  fa-envelope-open"></span> info@example.com</p>
+          <p><i class="fas fa-phone-alt"></i> +012 345 67890</p>
+
+          <div class="social">
+            <span class="fa fa-twitter"></span>
+            <span class="fa fa-facebook"></span>
+            <span class="fa fa-linkedin"></span>
+            <span class="fa fa-instagram"></span>
+          </div>
+        </div>
+        <div class="f-box">
+          <h1>Quick Links</h1>
+          <h5><span class="fa fa-arrow-right"></span>HOME</h5>
+          <h5><span class="fa fa-arrow-right"></span>ABOUT</h5>
+          <h5><span class="fa fa-arrow-right"></span>SERVICE</h5>
+          <h5><span class="fa fa-arrow-right"></span>PROCDUCT</h5>
+          <h5><span class="fa fa-arrow-right"></span>PAGES</h5>
+          <h5><span class="fa fa-arrow-right"></span>Meet The Team</h5>
+          <h5><span class="fa fa-arrow-right"></span>Latest Blog</h5>
+        </div>
+        <div class="f-box">
+          <h1>Popular Links</h1>
+
+          <h5><span class="fa fa-arrow-right"></span>HOME</h5>
+          <h5><span class="fa fa-arrow-right"></span>ABOUT</h5>
+          <h5><span class="fa fa-arrow-right"></span>SERVICE</h5>
+          <h5><span class="fa fa-arrow-right"></span>PROCDUCT</h5>
+          <h5><span class="fa fa-arrow-right"></span>PAGES</h5>
+          <h5><span class="fa fa-arrow-right"></span>Meet The Team</h5>
+          <h5><span class="fa fa-arrow-right"></span>Latest Blog</h5>
+        </div>
+        <div class="f-box o-box">
+          <h1>Newsletter</h1>
+          <h4>Subscribe Our Newsletter</h4>
+          <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+
+          <label for="foremail">
+            <input type="email" placeholder="Your Email" />
+            <button>Sign Up</button>
+          </label>
+        </div>
+      </section>
+
+      <section class="Copyrights">
+        <p>
+          &copy; <span class="farm">Farm</span>Fresh All Rights Reserved.
+          Developed by <i class="owner"> Jhon</i>
+        </p>
+      </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-------------------------------------Footer Ends here  ------------------------------------>
+
+
+
+    <!------------------------- font-awesome starts here  --------------------------------->
+    <script
+      src="https://kit.fontawesome.com/b78ad50dcc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!------------------------- font-awesome starts here  --------------------------------->
+
+    <!-------------------------owl-carousel  starts here  --------------------------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-------------------------owl-carousel  ends here  --------------------------------->
+
+    <!----------------------------------- js links starts ------------------------------>
+    <script src="js/script.js"></script>
+    <!----------------------------------- js links ends ------------------------------>
+  </body>
+</html>

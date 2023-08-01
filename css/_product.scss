@@ -1,0 +1,156 @@
+
+
+.product{
+    width: 100%;
+    // background-color: yellowgreen;
+
+
+      .product-center{
+          @include inner();
+          @include flex();
+          padding: 100px 0;
+
+
+              .headings{
+                  width: 100%;
+                  text-align: center;
+                //   padding: 25px 0;
+                //   border: 2px solid red;
+
+                    
+                h2{
+                    font-size: 1rem;
+                    color: var(--primary);
+                }
+
+                 h1{
+                     font-size: 2.5rem;
+                     color: var(--dark);
+                     font-weight: bolder;
+                 }
+              
+              }
+
+
+              .gallary{
+                width: 100%;
+                padding: 50px 25px;
+     
+
+                margin-top: 50px;
+                background-color: var(--primary);
+            
+                
+                .item-1{
+
+                  
+
+
+
+
+
+
+
+                    figure {
+                        // border: 1px solid red;
+                        width: 85%;
+                        margin: 0 auto;
+                        background-color: var(--light);
+                        padding-bottom: 25px;
+                      
+                    
+                       
+                     
+                       
+                      
+                        img{
+                            width: 90%;
+                            margin: 0 auto;
+                        }
+    
+                        figcaption{
+                            text-align: center;
+
+                              h1{
+                                  font-size: 1rem;
+                                  color: var(--dark);
+                                  margin-bottom: 10px;
+                              }
+    
+                              h2{
+                                  color: var(--primary);
+                                  font-size: 1.1rem;
+                                  font-weight: bold;
+                              
+                              }
+                        }
+    
+                        
+    
+                            
+                    }
+                }
+
+               
+       
+
+
+                   
+              }
+
+
+
+            
+      }
+       
+}
+
+
+// banners-3 sections starts here 
+.banners-top{
+    background-image: url(../img/carousel-1.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height:41vh;
+    padding: 1px;
+     
+
+          .center-text{
+             @include inner();
+             margin-top: 4rem;
+          
+               h1{
+                 color: var(--light);
+                 font-size: 4.6rem;
+                 font-weight: bolder;
+                 font-family: 'Roboto', sans-serif;
+
+               }
+
+               .button-1 {
+                @include btn-style(#34ad54);
+                padding: 1rem 4%;
+                margin-left: 0;
+                transition: all 0.3s ease-in;
+        
+                &:hover {
+                  color: var(--dark);
+                  cursor: pointer;
+                }
+              }
+        
+              .button-2 {
+                @include btn-style(#ff9933);
+                padding: 1rem 4%;
+                transition: all 0.3s ease-in;
+        
+                &:hover {
+                  color: var(--dark);
+                  cursor: pointer;
+                }
+              }
+          }
+  }
+
+  // banners-3 sections ends here 

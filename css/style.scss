@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid rebeccapurple; 
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+// Variable Starts here //
+
+:root {
+  --primary: #34ad54;
+  --secondary: #ff9933;
+  --light: #f6fff2;
+  --dark: #263a4f;
+  --lightgrey: #8d9aa8;
+}
+
+// @mixin
+
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@mixin inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@mixin btn-style($my-color) {
+  background-color: $my-color;
+  color: var(--light);
+  padding: 1rem 6%;
+  font-size: 1rem;
+  font-weight: 100;
+  border: none;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@mixin box ($width) {
+  width: $width;
+  height: 100px;
+  background: rgb(52, 173, 84);
+  background: linear-gradient(
+    180deg,
+    rgba(52, 173, 84, 1) 0%,
+    rgba(255, 153, 51, 1) 100% );
+  
+}
+
+//----------------- Exetend starts here ----------------//
+
+%Owl-carousel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: left;
+  background-position: right;
+}
+
+%articals-both {
+  width: 50%;
+  padding: 80px 0;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+//----------------- Exetend ends here ----------------//
+
+
+
+//  first nav Starts here //
+@import "nav-top"; 
+
+
+// Nav-2 starts here //
+@import "nav-bottom"; 
+
+
+// header starts here
+ @import "header";  
+
+
+
+// Abouts-section Starts here //
+@import "about"; 
+
+
+// banners starts here//
+ @import "banners";
+
+//  Service starts here 
+@import "service";
+
+// Feature starts here 
+@import "feature";
+
+// Product starts here 
+@import "product";
+
+// Testimonial starts here 
+@import "testimonial"; 
+
+
+// The-Team Starts here //
+@import "the-team"; 
+
+//Blog starts here
+
+@import "blog"; 
+
+// Contact starts here //
+@import "contact";
+
+// footer starts here //
+@import "footer"; 
+
+// Media Quaries  starts here //
+
+@import "media";
+
+
+
+
+ 
+
+
+
+
+
+
+
